@@ -1,0 +1,231 @@
+*{
+  border: px dotted red;
+  margin: 0;
+}
+h1{
+  font-size: 38px;
+  align-self: flex-end;
+}
+h2{
+  color: white;
+}
+h3{
+  color: #23669f;
+  font-size: 16px;
+}
+li{
+  margin-bottom: 5px;
+}
+p, li{
+  font-size: 12px;
+}
+a{
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, p, a, li{
+  font-family: sans-serif, serif;
+}
+#titlecontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 10px;
+  width: 840px;
+}
+#theinternet{
+  display: flex;
+  height: 50px;
+}
+#internet{
+  position: relative;
+  top: 30px;
+}
+#cornerimage{
+  height: 65px;
+  position: relative;
+}
+#worldwideweb{
+  display: flex;
+  padding: 10px;
+  background: linear-gradient(#24669f, #5182ac, #24669f);
+}
+#headershadow{
+  height: 30px;
+  background: linear-gradient(#e3e3e3, #ebebeb);
+}
+#mainwrapper{
+  display: flex;
+  margin-left: 10px;
+}
+#leftbar{
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  position: relative;
+  bottom: 10px;
+}
+#lefttext1{
+  font-weight: 700;
+  font-size: 14px;
+
+}
+#lefttext2{
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.lighterfont{
+  font-weight: lighter;
+}
+.button{
+  padding-top: 4px;
+  padding-bottom: 4px;
+  display: flex;
+  background-color: blue;
+  width: 170px;
+  justify-content: center;
+  border-radius: 5px;
+  color: white;
+  margin: 2px;
+  box-shadow: 2px 2px #939393;
+  font-size: 14px;
+  text-decoration: none;
+}
+#bluebutton{
+  background: linear-gradient(#6398c3, #23659e);
+}
+#orangebutton{
+  background: linear-gradient(#eaae57, #ef7300);
+}
+.bar{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #b1b1b1;
+  height: 1px;
+}
+#ad{
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  height: auto;
+  background-image: url("images/ad_background.png");
+  background-color: blue;
+  padding: 20px 10px;
+  align-items: center;
+}
+#adtext{
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+#ninja{
+  width: 65px;
+  height: auto;
+}
+#learnmore{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 160px;
+  background: linear-gradient(#77d0e0, #00c0df);
+  color: white;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 5px;
+  box-shadow: 2px 2px black;
+  text-decoration: none;
+  font-size: 14px;
+}
+#contentbar{
+  display: flex;
+  flex-direction: column;
+  width: 625px;
+  position: relative;
+  bottom: 30px;
+  margin-left: 30px;
+}
+#header{
+  display: flex;
+  justify-content: space-between;
+}
+#dnsbox{
+  display: flex;
+  height: 30px;
+  align-items: flex-end;
+}
+#dnsimage{
+  height: 16px;
+  margin: 2px;
+}
+#dnslink{
+  align-self: flex-end;
+  color: #457aaa;
+  font-weight: bold;
+  font-size: 14px;
+}
+#contactbox{
+  display: flex;
+  margin-right: 10px;
+
+}
+#numberbox{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.phonetext{
+  font-size: 10px;
+}
+#phoneimg{
+  height: 40px;
+  align-self: center;
+  margin-right: 8px;
+}
+#phonenumber{
+  font-size: 24px;
+  color: #00c2df;
+  font-weight: bold;
+}
+#bar{
+  background-color: #b4b4b4;
+  height: 1px;
+  margin: 5px 5px;
+}
+#info1{
+  margin-left: 5px;
+}
+.blue{
+  color: #009ab0;
+}
+.bold{
+  font-weight: bold;
+}
+.bottom10{
+  margin-bottom: 10px;
+}
+.bottom5{
+  margin-bottom: 5px;
+}
+#clientserverimg{
+  width: 220px;
+  align-self: center;
+  margin-bottom: 10px;
+}
+#footer{
+  display: flex;
+  border-top: 4px solid #0085e0;
+  border-left: 4px solid #0085e0;
+  border-right: 4px solid #0085e0;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 2px 0px #929292;
+}
+#htmlimg{
+  width: 100px;
+  height: 89px;
+  margin-right: 10px;
+}
+#big3link{
+  color: #009ab0;
+}
