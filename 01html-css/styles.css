@@ -1,0 +1,57 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#wrapper{
+ width: 766px;
+ background-color: silver;
+ margin: 10px auto;
+ padding: 15px;
+}
+#header{
+ height: 80px;
+ background-color: silver;
+ padding-left: 100px;
+ margin-top: 10px;
+}
+#img1{
+  width: 120px;
+  height: 60px;
+  display: inline-block;
+}
+#img2{
+  width: 120px;
+  height: 60px;
+  display: inline-block;
+  background-color: white;
+}
+#title{
+  display: inline-block;
+}
+p{
+  font-weight: bold;
+  font-size: 36px;
+}
+#content{
+  width: 766px;
+  height: 600px;
+  background-color: silver;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.bluepicture{
+  border: 3px solid black;
+  padding: 10px;
+  display: inline-block;
+  background-color: blue;
+  margin-bottom: 3px;
+}
+.redpicture{
+  border: 3px solid black;
+  padding: 10px;
+  display: inline-block;
+  background-color: red;
+  margin-bottom: 3px;
+}
