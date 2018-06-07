@@ -1,0 +1,27 @@
+*{
+  border: px solid green;
+}
+#wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin: 20px;
+}
+#imgcontainer{
+  display: flex;
+  width: 800px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+img{
+  width: 200px;
+  height: 200px;
+}
+button{
+  width: 100px;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  align-self: center;
+}
