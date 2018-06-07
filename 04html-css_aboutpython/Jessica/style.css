@@ -1,0 +1,238 @@
+/* *{
+    border: 1px dotted red;
+} */
+
+.wrapper{
+    width: 970px;
+    background-color: #29558F;
+    
+}
+/* Start Header CSS */
+
+.header{ 
+    background-color: #29558F;
+}
+img{
+    width: 450px;
+}
+
+.search{
+    background-color: #747373;
+    border-radius: 10px;
+    padding: 15px 30px 15px 30px;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    box-shadow: 0px 5px 5px 0px #333333;
+}
+#go{
+    background-color: #29558F;
+    border-color: silver;
+    color: white;
+    border-radius: 5px;
+    width: 50px;
+    height: 40px;
+    box-shadow: 0px 3px 3px 0px #333333;
+    font-size: 15px;
+    font-style: bold;
+    margin-left: 10px;
+}
+#search{
+    color: grey;
+    font-size: 14px;
+    text-align: center;
+    height: 45px;
+    padding-left: 23px;
+    width: 200px;
+}
+
+.topright{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: gold;
+    padding-top: 10px;
+    margin-left: 120px;
+
+}
+.topright .blacktext{
+    color: black;
+
+}
+.topright .textsize{
+    color: white;
+    text-align: right;
+    padding-left: 150px;
+}
+.topgroup{
+    margin: 3px;
+}
+
+a{
+    text-decoration: underline;
+}
+/* End Header CSS */
+
+
+
+/* Begin TopNav CSS */
+
+.topnav{
+    background-color: #79AEDF;
+    padding-left: 40px;
+    width: 900px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px 0px #333333;
+    font-family: sans-serif;
+    font-size: 22px;
+    text-align: center;
+    word-spacing: 2em;
+    line-height: 45px;
+    margin-left: 15px;
+    font-weight: lighter;
+    
+
+}
+
+/* End TopNav CSS */
+
+/* Start Main CSS */
+
+.main{
+    width: 960px;
+
+}
+
+.nav{
+    width: 300px;
+    color: white;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    text-decoration: underline;
+    line-height: 25px;
+    display: inline-block;
+    text-align: center;
+}
+
+.maintext{
+    width: 550px;
+    font-size: 14px; 
+    display: inline-block;
+    margin-left: 40px;
+    vertical-align: top;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.quote{
+    color: yellow;
+    display: block;
+    list-style-type: none;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    line-height: 30px;
+}
+
+.zen{
+    display: block;
+    color: white;
+    font-size: 18px;
+}
+
+
+/* End Main CSS */
+/* Start Subcontent CSS */
+.subcontent{
+    background-color: white;
+}
+
+.leftcolumn{
+    width: 450px;
+    display: inline-block;
+    border-top: 5px solid #79AEDF;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: start;
+}
+.leftcolumn p{
+    text-align: center;
+
+}
+.leftcolumn ul{
+    text-align: center;
+    color: #79AEDF;
+}
+
+.rightcolumn{
+    width: 375px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-top: 5px solid #79AEDF;
+    vertical-align: top;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    padding-right: 40px;
+    margin-right: 20px;
+    list-style-type: square;
+
+}
+.rightcolumn p{
+    text-align: center;
+
+}
+.rightcolumn ul{
+    text-align: center;
+    color: #79AEDF;
+}
+
+.pypi{
+    color: #79AEDF;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: 400;
+}
+/* End Subcontent CSS */
+
+/* Start Footer CSS */
+.footer{
+    background: linear-gradient(180deg, #29558F, #4C84CE);
+    color: #79AEDF;
+    height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.help{
+    margin-right: 40px;
+    margin-top: 40px;
+    font-size: 12pt;
+}
+.diversity{
+    margin-right: 40px;
+    font-size: 12pt;
+}
+.bugs{
+    font-size: 12pt;
+}
+.copy{
+    display: block;
+    line-height: 30px;
+    font-size: 10px;
+}
+/* End Footer CSS */
